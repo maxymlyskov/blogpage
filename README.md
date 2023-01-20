@@ -1,8 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
+
+### `npm i`
+
+To install all neccessary dependencies.
 
 In the project directory, you can run:
 
@@ -13,11 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,8 +34,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Functionality
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![1c83b959-292a-4f2f-a451-f223ca83b948](https://user-images.githubusercontent.com/84620852/213664467-9efce0ec-8a67-4f04-b151-3e4176f201cc.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+On the first page renders all posts from API.
+
+![4c41ddea-4058-421b-bec3-1989561f3642](https://user-images.githubusercontent.com/84620852/213664648-265bf120-ee8a-4e46-9bb4-c96b7e655f9d.jpg)
+
+After clicking **Change button** you will go to page where you can change the post.
+
+![41466ae6-e9f7-4dd7-b2bc-939d99386c43](https://user-images.githubusercontent.com/84620852/213664903-f8cd9cfa-b8e2-4635-91a6-c226d21281c5.jpg)
+
+You can also **Delete** post.
+
+![75ffdae3-e0a7-4fc6-a58f-703d2ffb78fa](https://user-images.githubusercontent.com/84620852/213665002-2729a6b0-4da1-4d38-a783-f78f99c7b42e.jpg)
+
+Clicking on post will get you to **Details**.
+
+![59be8828-6e84-49e3-b583-bc2f49113ee0](https://user-images.githubusercontent.com/84620852/213665106-684dfeea-0436-44bf-a4d1-5e0245fd1092.jpg)
+
+Here you can add comment to post.
