@@ -40,6 +40,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 On the first page renders all posts from API.
 
+![50aa8c93-491c-4206-a321-be174cc4b528](https://user-images.githubusercontent.com/84620852/213786293-ce6ef6cc-9c51-4005-8999-981723babae7.jpg)
+
+You can **add post** at the top of first page.
+
 ![4c41ddea-4058-421b-bec3-1989561f3642](https://user-images.githubusercontent.com/84620852/213664648-265bf120-ee8a-4e46-9bb4-c96b7e655f9d.jpg)
 
 After clicking **Change button** you will go to page where you can change the post.
