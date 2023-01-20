@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useChangeCurrentPostMutation } from "../store/posts/postsApi";
 
 function ChangePage() {
   const { state } = useLocation();
+  const navigate = useNavigate();
   const [title, setTitle] = useState(state.title);
   const [body, setBody] = useState(state.body);
   const [trigger, setTrigger] = useState(false);
@@ -20,6 +21,8 @@ function ChangePage() {
       console.log(error);
     }
     console.log(response);
+
+    navigate("/");
   };
 
   return (

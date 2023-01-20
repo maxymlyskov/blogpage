@@ -289,3 +289,19 @@ textarea {
     font-size: 2.4rem;
   }
 }
+/* Post */
+.post-container {
+  height: 20rem;
+}
+.post-container .change__top input {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .post-container {
+    max-width: 95%;
+    height: 100%;
+  }
+  .post-container .change__top button {
+    width: 100%;
+  }
+}

@@ -49,6 +49,14 @@ export const api = createApi({
       }),
       invalidatesTags: (result, error, { id }) => [{ type: "Posts", id }],
     }),
+    addPost: build.mutation<PostCurrent, { title: string; body: string }>({
+      query: ({ title, body }) => ({
+        url: `/posts`,
+        method: "POST",
+        body: { title: title, body: body },
+      }),
+      invalidatesTags: (result, error, { title }) => [{ type: "Posts", title }],
+    }),
     deletePost: build.mutation<PostCurrent, { id: string }>({
       query: ({ id }) => ({
         url: `/posts/${id}`,
@@ -79,4 +87,5 @@ export const {
   useChangeCurrentPostMutation,
   useDeletePostMutation,
   useAddCommentMutation,
+  useAddPostMutation,
 } = api;
